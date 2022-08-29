@@ -1,0 +1,29 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.formulario_label{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.formulario_botao{
+    margin-top: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: deepskyblue;
+    color: white;
+    padding: 1.2rem;
+    font-weight: bolder;
+}
+
+.formulario_botao:hover{
+    cursor: pointer;
+    background-color: dodgerblue;
+}
+

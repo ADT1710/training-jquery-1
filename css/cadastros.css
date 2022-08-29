@@ -1,0 +1,24 @@
+.cadastros{
+    margin-top: 1rem;
+}
+
+.cadastros_coluna{
+    border: 2px solid black;
+    padding: 1rem;
+}
+
+.cadastros_coluna--cabecalho{
+    font-weight: bolder;
+}
+
+.cadastros_botao{
+    font-weight: bolder;
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+.cadastros_botao:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
