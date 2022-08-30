@@ -1,5 +1,5 @@
 const btnCadastro = $(".formulario_botao");
-const btnTBody = $(".cadastros_tabela--corpo");
+const tBody = $(".cadastros_tabela--corpo");
 
 btnCadastro.click(function (){
     event.preventDefault();
@@ -10,7 +10,7 @@ btnCadastro.click(function (){
 
     console.log(`Nome: ${nome} | Idade: ${idade} | Renda: R$${renda}`);
 
-    btnTBody.append(`<tr class="cadastros_linha">
+    tBody.append(`<tr class="cadastros_linha">
                         <td class="cadastros_coluna">${nome}</td>
                         <td class="cadastros_coluna">${idade}</td>
                         <td class="cadastros_coluna">R$${renda}</td>
