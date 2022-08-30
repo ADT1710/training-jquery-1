@@ -16,4 +16,7 @@ btnCadastro.click(function (){
                         <td class="cadastros_coluna">R$${renda}</td>
                         <td class="cadastros_coluna"><button class="cadastros_botao">X</button></td>
                     </tr>`)
+
+    $('.formulario').each(function (){this.reset()});
+    $('#nome').focus();
 });
