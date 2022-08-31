@@ -1,7 +1,7 @@
-const btnRemove = $(".cadastros_botao");
-
-btnRemove.click(function (){
-    event.preventDefault();
-
-    this.closest('.cadastros_linha').remove();
-});
+function atualizaRemovedor(){
+    btnRemove.forEach((btn)=>{
+        btn.addEventListener('click', function (){
+            this.closest(".cadastros_linha").remove();
+        });
+    });
+}
