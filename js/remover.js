@@ -1,7 +1,11 @@
 function atualizaRemovedor(){
-    btnRemove.forEach((btn)=>{
-        btn.addEventListener('click', function (){
-            this.closest(".cadastros_linha").remove();
-        });
+    btnRemove.forEach((btn, index)=>{
+        btn.addEventListener('click', removeCadastro);
     });
 }
+
+function removeCadastro(){
+    alert("Cadastro excluído com sucesso!");
+    this.closest(".cadastros_linha").remove();
+}
+
