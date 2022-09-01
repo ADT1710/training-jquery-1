@@ -1,0 +1,16 @@
+.medidas{
+    display: flex;
+    flex-direction: row;
+    margin: .2rem;
+}
+
+.medidas_card{
+    margin: 2rem .5rem;
+    background-color: aliceblue;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.medidas_card--titulo{
+    font-weight: bolder;
+}
