@@ -14,7 +14,7 @@ btnCadastro.click(function (){
     tBody.append(`<tr class="cadastros_linha">
                         <td class="cadastros_coluna cadastros_coluna--nome">${nome}</td>
                         <td class="cadastros_coluna">${idade}</td>
-                        <td class="cadastros_coluna">R$${renda}</td>
+                        <td class="cadastros_coluna valor_renda">R$${renda}</td>
                         <td class="cadastros_coluna"><button class="cadastros_botao">X</button></td>
                     </tr>`)
 
@@ -23,4 +23,5 @@ btnCadastro.click(function (){
 
     btnRemove = document.querySelectorAll(".cadastros_botao");
     atualizaRemovedor();
+    defineMaiorRenda(parseFloat(renda), 0,0);
 });
