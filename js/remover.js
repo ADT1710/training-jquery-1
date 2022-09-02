@@ -1,3 +1,5 @@
+let btnRemove = document.querySelectorAll(".cadastros_botao");
+
 function atualizaRemovedor(){
     btnRemove.forEach((btn, index)=>{
         btn.addEventListener('click', removeCadastro);
@@ -10,3 +12,4 @@ function removeCadastro(){
     redefinirMaiorRenda();
 }
 
+atualizaRemovedor();

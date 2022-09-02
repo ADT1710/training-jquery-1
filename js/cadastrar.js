@@ -1,6 +1,5 @@
 const btnCadastro = $(".formulario_botao");
 const tBody = $(".cadastros_tabela--corpo");
-let btnRemove = document.querySelectorAll(".cadastros_botao");
 
 btnCadastro.click(function (){
     event.preventDefault();
