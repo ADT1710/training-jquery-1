@@ -10,7 +10,7 @@ btnCadastro.click(function (){
 
     tBody.append(`<tr class="cadastros_linha">
                         <td class="cadastros_coluna cadastros_coluna--nome">${nome}</td>
-                        <td class="cadastros_coluna">${idade}</td>
+                        <td class="cadastros_coluna valor_idade">${idade}</td>
                         <td class="cadastros_coluna valor_renda">R$${renda}</td>
                         <td class="cadastros_coluna"><button class="cadastros_botao">X</button></td>
                     </tr>`)
@@ -22,4 +22,5 @@ btnCadastro.click(function (){
     atualizaRemovedor();
     defineMaiorRenda(parseFloat(renda), 0,0);
     calculaRendaMedia();
+    calculaIdadeMedia();
 });

@@ -11,6 +11,7 @@ function removeCadastro(){
     this.closest(".cadastros_linha").remove();
     redefinirMaiorRenda();
     calculaRendaMedia();
+    calculaIdadeMedia();
 }
 
 atualizaRemovedor();
